@@ -19,7 +19,7 @@ const
 var
 	master = fs.readFileSync('templates/master.html').toString(),
 	adminfunctions = fs.readFileSync('templates/adminfunctions.html').toString()
-	;
+;
 
 
 function generatePage(name, options, callback) {
