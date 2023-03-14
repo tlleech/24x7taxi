@@ -33,7 +33,6 @@ function generatePage(name, options, callback) {
 			.replace(/\{\{pagetitle\}\}/g, ((options && options.pagetitle) ? options.pagetitle : '24x7 Stansted - 24x7 Taxi service - Stansted, Braintree, Dunmow, Chelmsford'))
 			.replace(/\{\{pagestyles\}\}/g, ((options && options.pagestyles) ? options.pagestyles : ''))
 			.replace(/\{\{pagescripts\}\}/g, ((options && options.pagescripts) ? options.pagescripts : ''))
-			.replace(/\{\{adminfunctions\}\}/g, ((options && options.adminfunctions) ? options.adminfunctions : adminfunctions))
 			.replace(/\{\{pagedescription\}\}/g, ((options && options.pagedescription) ? options.pagedescription : 
 				'CCS Shop'
 			))
