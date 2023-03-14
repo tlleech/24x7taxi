@@ -1,0 +1,14 @@
+{
+  "name": "24x7stansted.co.uk",
+  "version": "1.0.0",
+  "description": "24x7 Taxi website",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "build": "node generate"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  }
+}
